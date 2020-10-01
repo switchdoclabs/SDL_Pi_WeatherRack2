@@ -1,4 +1,4 @@
-# test for Weather Sensors
+# test for WeatherSense SwitchDoc Labs Weather Sensors
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------------------------------------------------------------------------------------
 import sys
@@ -63,10 +63,10 @@ while True:
         sLine = line.decode()
         print(sLine)
         #   See if the data is something we need to act on...
-        if ( sLine.find('F007TH') != -1):
-            sys.stdout.write('This is the raw data: ' + sLine + '\n')
-        if ( sLine.find('FT0300') != -1):
-            sys.stdout.write('This is the raw data: ' + sLine + '\n')
+        if ( sLine.find('F016TH') != -1):
+            sys.stdout.write('WeatherSense Indoor T/H F016TH Found' + '\n')
+        if ( sLine.find('FT020T') != -1):
+            sys.stdout.write('WeatherSense WeatherRack2 FT020T found' + '\n')
 
 
     sys.stdout.flush()

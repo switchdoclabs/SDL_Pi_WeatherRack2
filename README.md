@@ -1,6 +1,6 @@
 SwitchDoc Labs WeatherRack2 Raspberry Pi Interface Code<BR>
 
-Version 1.1 Initial Release July 9, 2020  <BR>
+Version 1.2 Initial Release October 1, 2020  <BR>
 
 Before using this software, you must download and install the version of rtl_433 in this repository. 
 
