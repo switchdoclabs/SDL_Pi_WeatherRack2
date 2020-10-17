@@ -8,7 +8,7 @@ from threading  import Thread
 import datetime
 
 # ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 146 = FT0300 WeatherRack2, #147 = F007TH SDL Temperature/Humidity Sensor
+# 146 = FT-020T WeatherRack2, #147 = F016TH SDL Temperature/Humidity Sensor
 print("Starting Wireless Read")
 #cmd = [ '/usr/local/bin/rtl_433', '-vv',  '-q', '-F', 'json', '-R', '146', '-R', '147']
 cmd = [ '/usr/local/bin/rtl_433', '-q', '-F', 'json', '-R', '146', '-R', '147']
